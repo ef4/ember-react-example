@@ -1,6 +1,6 @@
 # Example: Invoking React Components from Ember
 
-This repo contains a runnable demo that shows how to invoke a react component from an Ember app.
+This repo contains a runnable demo that shows how to invoke a React component from an Ember app.
 
 ## Run it
 
@@ -9,9 +9,9 @@ This repo contains a runnable demo that shows how to invoke a react component fr
 
 ## Understand it
 
- - `some-react-lib` is intended to stand in for your library package that contains a react component.
+ - `some-react-lib` is intended to stand in for your library package that contains a React component.
  - `app` is the Ember app
-   - it contains a `{{react}}` element modifier that can [render a react component](./app/app/components/example.hbs) into any dom element.
+   - it contains a `{{react}}` element modifier that can [render a React component](./app/app/components/example.hbs) into any dom element.
    - the modifier is implemented in [app/modifiers/react.js](./app/app/modifiers/react.js).
    - in order to import the JSX component into the Ember app, we [configure ember-auto-import with JSX support](./app/ember-cli-build.js). The same webpack config could be passed to `@embroider/compat` instead, if you're using Embroider rather than the classic build pipeline.
 
