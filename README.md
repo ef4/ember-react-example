@@ -1,6 +1,6 @@
 # Example: Invoking React Components from Ember
 
-This repo contains a runnable demo that show how to invoke a react component from an Ember app.
+This repo contains a runnable demo that shows how to invoke a react component from an Ember app.
 
 ## Run it
 
